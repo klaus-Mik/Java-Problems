@@ -1,4 +1,4 @@
-package arrays_Strings;
+
 
 public class remove {
     public static int lengthh(int[] a, int val){
