@@ -1,21 +1,17 @@
-package patterns;
-
-public class hollowrectangle {
+public class rightrev {
     public static void main(String[] args){
         int rows=4;
-        int cols=5;
         for(int i=0;i<rows;i++){
-            for(int j=0;j<cols;j++){
-                if(i==0 || i==rows-1 || j==0 || j==cols-1){
+            for(int j=0;j<rows;j++){
+                if(j>=i){
                     System.out.print("*");
                 }
                 else{
                     System.out.print(" ");
                 }
-                
+                   
             }
             System.out.println();
         }
     }
-  
 }
