@@ -4,7 +4,7 @@ public class rainwater {
         int left=0;
         int n=arr.length;
         int right=n-1;
-        int i=0;
+        
         int left_max=0;
         int right_max=0;
         while(left<=right){

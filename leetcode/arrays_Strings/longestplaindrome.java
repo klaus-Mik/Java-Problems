@@ -1,6 +1,6 @@
 public class longestplaindrome {
    
-        public int longestPalindrome(String s) {
+        public static int longestPalindrome(String s) {
             if(s.length()==1){
                 return 1;
             }
@@ -22,6 +22,10 @@ public class longestplaindrome {
             }
             return length;
             
+        }
+        public static void main(String[] args){
+            String s="abbssce";
+            System.out.println(longestPalindrome(s));
         }
     }
 
