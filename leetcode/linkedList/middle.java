@@ -9,6 +9,13 @@ public class middle {
             slow=slow.next;
             fast=fast.next.next;
         }
+        slow.next=slow.next.next;
+        Node temp=s.head;
+        while(temp!=null){
+            System.out.print(temp.data+"->");
+            temp=temp.next;
+        }
+
         System.out.println(slow.data);
 
     }
