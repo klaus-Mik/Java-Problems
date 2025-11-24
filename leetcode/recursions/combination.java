@@ -16,9 +16,7 @@ public class combination {
        
         current.remove(current.size()-1);
         combi(arr, k, i+1, sum, values, current);
-        if(values.contains(current)){
-            return;
-        }
+      
         
     }
     public static void main(String[] args) {
